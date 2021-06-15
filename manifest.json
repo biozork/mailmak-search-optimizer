@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "MailMak Search Optimizer",
+    "description": "Denne chrome extention er lavet for at stoppe unødige søgninger i AMS10",
+    "version": "1.0.1",
+    "browser_action": {
+        "default_icon": "icon-16.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "tabs",
+        "https://ams.mailmak.com/ing/*",
+        "webNavigation"
+     ],
+    "icons": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    }
+}
